@@ -1,0 +1,36 @@
+.title{
+      font-size: 1.5em;
+      margin-left: 210px;
+}
+.menu-items{
+    margin-right: 210px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro{
+    text-align: center;
+}
+.intro button{
+    font-size: large;
+    border: none;
+    color: white;
+    background-color:#FF900E;
+    padding: 18px 32px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+header section{
+    background-color: #FF900E;
+}
