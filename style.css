@@ -18,7 +18,7 @@
 .intro{
     text-align: center;
 }
-.intro button{
+.button{
     font-size: large;
     border: none;
     color: white;
@@ -33,4 +33,61 @@
 }
 header section{
     background-color: #FF900E;
+}
+/*----------------------*/
+
+.f-list{
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 2em;
+}
+.grid-cell{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-cell2{
+    display: flex;
+    align-items: center;
+}
+.grid-container2{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 6em;
+}
+.cards article{
+    padding: 0.5em 2.5em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.feature h2{
+    font-size: 2.5em;
+    padding-left: .5em;
+    border-left: 5px solid #FF900E;
+}
+
+/*--------------------------------------*/
+
+.s2{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+.facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6em;
+    margin-top: 4em;
+}
+.fact{
+    text-align: center;
+    border: 2px solid #FF900E;
+    padding: 2em 3.7em;
 }
